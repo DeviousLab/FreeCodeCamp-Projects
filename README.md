@@ -19,3 +19,6 @@ Play tic tac toe againt the computer in the terminal
 
 `hangman.py` :
 Provides a list of words and user has to guess the correct letters in the word
+
+`minesweeper.py` :
+Play a game of minesweeper in the terminal with a co-ordinate system
