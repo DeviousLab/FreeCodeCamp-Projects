@@ -21,7 +21,7 @@ class Board:
         for r in range(max(0, row-1), min(self.dim_size-1, row+1)+1):
             for c in range(max(0, col-1), min(self.dim_size-1, col+1)+1):
                 if r == row and c == col:
-                        continue
+                    continue
                 if self.board[r][c] == '*':
                     num_neighbouring_bombs += 1
 
@@ -36,7 +36,9 @@ class Board:
             col = loc % self.dim_size
 
             if board[row][col] == '*':
-                bombs_planted += 1
+                continue
+            board[row][col] = '*'
+            bombs_planted += 1
 
         return board
 
@@ -102,7 +104,7 @@ def play(dim_size=10, num_bombs=10):
     safe = True
     while len(board.dug) < board.dim_size ** 2 - num_bombs:
         print(board)
-        user_input = re.split(',(\\s)*', input("Where do you want to dig?"))
+        user_input = re.split(',(\\s)*', input("Where do you want to dig? "))
         row, col = int(user_input[0]), int(user_input[-1])
         if row < 0 or row >= board.dim_size or col < 0 or col >= dim_size:
             print('Invalid location, try again! ')
