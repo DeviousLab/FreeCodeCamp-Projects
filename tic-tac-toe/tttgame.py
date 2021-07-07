@@ -41,17 +41,17 @@ class TicTacToe():
             return True
 
         if square % 2 == 0:
-            diagonal1 = [self.board[i] for i in [0,4,8]]
+            diagonal1 = [self.board[i] for i in [0, 4, 8]]
             if all([s == letter for s in diagonal1]):
                 return True
-            diagonal2 = [self.board[i] for i in [2.4,6]]
+            diagonal2 = [self.board[i] for i in [2, 4, 6]]
             if all([s == letter for s in diagonal2]):
                 return True
 
         return False
 
     def available_moves(self):
-        moves = [i for i, x in enumerate(self.board) if x == ' ']
+        return [i for i, x in enumerate(self.board) if x == ' ']
 
     def empty_squares(self):
         return ' ' in self.board
