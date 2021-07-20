@@ -22,13 +22,10 @@ section {
 }
 
 nav {
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
 	background: #ccc;
-	padding: 20px;
-    top: 0px;
+	padding: 5px;
     left: 0px;
+	position: fixed;
 }
 
 nav ul {
