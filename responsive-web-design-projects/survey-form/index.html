@@ -8,7 +8,39 @@
     <title>Survey Form</title>
 </head>
 <body>
-
+    <main>
+        <h1 id="title">Customer Experience Survey</h1>
+        <p id="description">How would you describe your experience with us today?</p>
+        <form id="survey-form">
+            <label id="name-label" for="name">Your Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
+            <label id="email-label" for="email">Your Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+            <label id="number-label" for="age">Your Age:</label>
+            <input type="number" name="age" id="number" min="18" max="99" placeholder="Age" required><br>
+            <p>How would you rate your shopping experience?</p>
+            <select id="dropdown" name="role" required>
+                <option disabled selected value>Select reason</option>
+                <option value="Terrible">Terrible</option>
+                <option value="Poor">Poor</option>
+                <option value="Satisfactory">Satisfactory</option>
+                <option value="Good">Good</option>
+                <option value="Excellent">Excellent</option>
+            </select>
+            <p>Would you come visit our store again?</p>
+            <input type="radio" name="visit" value="yes">Yes<br>
+            <input type="radio" name="visit" value="no">No
+            <p>How did you hear about us?</p>
+            <input type="checkbox" name="newsletter" id="newsletter" value="newsletter">Newsletter<br>
+            <input type="checkbox" name="facebook" id="facebook" value="facebook">Facebook<br>
+            <input type="checkbox" name="twitter" id="twitter" value="twitter">Twitter<br>
+            <input type="checkbox" name="instagram" id="instagram" value="instagram">Instagram<br>
+            <input type="checkbox" name="email" id="email" value="email">Email<br>
+            <p>Any other additional comments you would like to add?</p>
+            <textarea name="comments" id="comments" rows="5" cols="50" placeholder="Enter any additional comments"></textarea><br>
+            <input type="submit" id="submit">
+        </form>
+    </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>

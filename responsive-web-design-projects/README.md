@@ -5,7 +5,9 @@ Time to put your newly learnt skills to work. By working on these projects, you 
 Complete the five web programming projects below to earn your Responsive Web Design certification.
 
 * Build a Tribute Page
+<https://deviouslab.github.io/FreeCodeCamp-Projects/responsive-web-design-projects/tribute-page>
 * Build a Survey Form
+
 * Build a Product Landing Page
 * Build a Technical Documentation Page
 * Build a Personal Portfolio Webpage

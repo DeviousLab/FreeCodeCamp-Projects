@@ -1,0 +1,32 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.2em;
+	display: block;
+	text-align: center;
+	background-color: gray;
+}
+
+form {
+	max-width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid white;
+	border-radius: 20%;
+	padding: 1em;
+}
+
+textarea {
+	min-height: 120px;
+	width: 70%;
+	padding: 0.625rem;
+	resize: vertical;
+}
+
+#submit {
+	width: 50%;
+	padding: 0.75rem;
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
