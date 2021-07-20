@@ -9,6 +9,8 @@ Complete the five web programming projects below to earn your Responsive Web Des
 * Build a Survey Form
 <https://deviouslab.github.io/FreeCodeCamp-Projects/responsive-web-design-projects/survey-form/>
 * Build a Product Landing Page
-
+<https://deviouslab.github.io/FreeCodeCamp-Projects/responsive-web-design-projects/product-landing/>
 * Build a Technical Documentation Page
+<https://deviouslab.github.io/FreeCodeCamp-Projects/responsive-web-design-projects/technical-documentation/>
 * Build a Personal Portfolio Webpage
+<https://deviouslab.github.io/FreeCodeCamp-Projects/responsive-web-design-projects/personal-portfolio/>
