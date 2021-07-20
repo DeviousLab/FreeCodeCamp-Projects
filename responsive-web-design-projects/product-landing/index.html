@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Product Landing Page</title>
 </head>
+<header id="header">
+    <img src="https://dcassetcdn.com/design_img/819683/103897/103897_4837526_819683_image.png" alt="Company Logo"
+        id="header-img">
+    <nav id="nav-bar">
+        <ul>
+            <a href="#aboutus" class="nav-link">
+                <li>About Us</li>
+            </a>
+            <a href="#criminal" class="nav-link">
+                <li>Criminal Justice</li>
+            </a>
+            <a href="#insurance" class="nav-link">
+                <li>Insurance Law</li>
+            </a>
+            <a href="#signup" class="nav-link">
+                <li>Hire Us</li>
+            </a>
+        </ul>
+    </nav>
+</header>
+
 <body>
+    <section class="aboutus" id="aboutus">
+        <h1>About Us</h1>
+        <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/YVUPVEZDW6Y"
+            frameborder="0" allowfullscreen>
+        </iframe>
+    </section>
+    <section id="criminal">
+        <h2>Criminal Justice</h2>
+        <img src="https://www.thestatesman.com/wp-content/uploads/2020/08/LAW.jpg" alt="criminal justice">
+    </section>
+    <section id="insurance">
+        <h2>Insurance</h2>
+    </section>
+    <section id="signup">
+        <form class="signup-form" action="https://www.freecodecamp.com/email-submit" id="form">
+            <h3>Contact Us Today!</h3>
+            <label id="email-label" for="email">Your Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </section>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>
