@@ -13,3 +13,4 @@ Complete all 5 projects, and you'll earn the Front End Development Libraries cer
 * Build a JavaScript Calculator
 <https://deviouslab.github.io/FreeCodeCamp-Projects/front-end-development-libraries/javascript-calculator>
 * Build a 25 + 5 Clock
+<https://deviouslab.github.io/FreeCodeCamp-Projects/front-end-development-libraries/pomodoro>
